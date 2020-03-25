@@ -1,6 +1,6 @@
-### [Downloads page](https://github.com/N3MTV/gcphone/releases)
+This is edited version of GCPHONE made by Gannon
 
-<h2 align="center">Téléphone pour FiveM</h2>
+<h2 align="center">Phone for FiveM</h2>
 
 ![Image of gcphone1](https://i.imgur.com/naTiBgI.png)
 ![Image of gcphone2](https://i.imgur.com/LAicovK.png)
@@ -9,21 +9,21 @@
 ![Image of gcphone5](https://i.imgur.com/9h7eiI8.png)
 
 ## Fonctionnalités 
-  - Liste des contacts
-  - Envoi de sms
-  - Appel vocal
-  - Appel anonyme
-  - Application Banque
-  - Application Tchat anonyme
-  - Application Bourse
-  - Coque / Fond ecran customisable
+  - List of contacts
+  - Sending SMS
+  - Voice calls
+  - Anonymous calls
+  - Bank app
+  - Anynonymous T-Chat app
+  - Bourse app
+  - Customizable background
   - . . .
 
 
 ## Configuration
 
 
-### Modifier le fichier /html/static/config/config.json
+### Edit file /html/static/config/config.json
 ```json
 {
   "//": "Nom du reseau situé dans la barre du téléphone",
@@ -231,14 +231,14 @@
 }
 
 ```
-*N'oubliez pas de rajouter les nouveaux fichiers dans le __ressource.lua*
+*Dont forget to add new files into fxmanifest.lua*
 
 
-* Vous pouvez modifier les sons dans \html\static\sound
-* Les coques doivent être au format 1000x500 px, La zone ecran est centrée de taille 800*400
-* Les applications Banque & Bourse sont à configurer selon vos scripts
+* You can change sounds in \html\static\sound
+* The shells must be in 1000x500 px format, the screen area is centered in size 800 * 400
+* Bank & Stock Market applications must be configured according to your scripts
 
-### Les postes fixes sont configurables dans gcphone/config.lua
+### Fixed stations can be configured in gcphone/config.lua
 ```LUA
 --[[
   Faites attention à ne pas utiliser un numéro qui entre en conflit avec un joueur
@@ -253,11 +253,11 @@ FixePhone = {
 ```
 
 
-## A propos de esx_addons_gcphone
-Permet de faire la liaison entre le téléphone et les métiers esx.
+## About esx_addons_gcphone
+Used to make the connection between the telephone and the esx.
 
-Veuillez mettre esx_addons_gcphone & gcphone avant les jobs.
-Exemple :
+Please put esx_addons_gcphone & gcphone before jobs.
+Example:
 ```yml
   # ...
 
@@ -279,3 +279,4 @@ Exemple :
 [GNU v3](https://opensource.org/licenses/gpl-3.0.html)
 
 Jonathan (Gannon) D
+Edited by rex2630
